@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <div class="container__todo">
+        <h1 class="title">Calculadora Curso Javascript</h1>
+        <h2>Por AndyCode</h2>
+        <p id="mensajeerror"></p>
+        <div class="calculadora">
+            <input type="text" id="pantalla" readonly>
+            <br>
+            <input type="button" value="1" class="miboton" onclick="agregarAlaPantalla('1')">
+            <input type="button" value="2" class="miboton" onclick="agregarAlaPantalla('2')">
+            <input type="button" value="3" class="miboton" onclick="agregarAlaPantalla('3')">
+            <input type="button" value="+" class="miboton" onclick="agregarAlaPantalla('+')">
+            <br>
+            <input type="button" value="4" class="miboton" onclick="agregarAlaPantalla('4')">
+            <input type="button" value="5" class="miboton" onclick="agregarAlaPantalla('5')">
+            <input type="button" value="6" class="miboton" onclick="agregarAlaPantalla('6')">
+            <input type="button" value="-" class="miboton" onclick="agregarAlaPantalla('-')">
+            <br>
+            <input type="button" value="7" class="miboton" onclick="agregarAlaPantalla('7')">
+            <input type="button" value="8" class="miboton" onclick="agregarAlaPantalla('8')">
+            <input type="button" value="9" class="miboton" onclick="agregarAlaPantalla('9')">
+            <input type="button" value="*" class="miboton" onclick="agregarAlaPantalla('*')">
+            <br>
+            <input type="button" value="0" class="miboton" onclick="agregarAlaPantalla('0')">
+            <input type="button" value="." class="miboton" onclick="agregarAlaPantalla('.')">
+            <input type="button" value="/" class="miboton" onclick="agregarAlaPantalla('/')">
+            <input type="button" value="="  onclick="calcularResultado()">
+            <br>
+            <input type="button" value="C" onclick="limpiarResultado()">
+        </div>
+    </div>
+    <div class="burbujas">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+</body>
+</html>
+    <script src="/Js/burbujas.js"></script>
+    <script src="/Js/calculadora.js"></script>
+    
+</body>
+
+</html>
